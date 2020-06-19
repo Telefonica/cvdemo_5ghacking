@@ -26,7 +26,7 @@ pipeline {
                 }
              }
           }
-        stage ('push wireguard to registry') {
+        stage ('push computer vision front to registry') {
             steps {
                 dir ("${WORKSPACE}/src/dockers/ui/") {
                     sh '''
